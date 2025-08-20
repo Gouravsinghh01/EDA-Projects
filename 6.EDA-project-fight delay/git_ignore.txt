@@ -1,0 +1,44 @@
+# Python-specific files
+# =====================
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Data and artifacts
+# ==================
+# Since you're working with data, you might generate new data files
+# or intermediate results that you don't want to commit.
+# Add any data files you want to ignore.
+# For example, if you save new CSVs or processed data:
+# processed_data/
+# output.csv
+
+# IDE and editor files
+# ====================
+# Ignore files created by common IDEs like VS Code, PyCharm, etc.
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter Notebook checkpoints
+# This is a good practice if you are using or plan to use Jupyter.
+.ipynb_checkpoints/
+
+# Matplotlib plots
+# The script generates plots, which you may not want to track.
+# Feel free to comment this out if you want to save the plots.
+*.png
+*.jpg
+*.jpeg
+
+# Miscellaneous
+# =============
+# Logs, temporary files, etc.
+*.log
+*.tmp
