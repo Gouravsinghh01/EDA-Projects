@@ -1,0 +1,22 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Streamlit specific files
+.streamlit/
+
+# Jupyter notebooks and data files
+.ipynb_checkpoints
+*.csv
+
+# Operating System files
+.DS_Store
+
+# IDE and editor files
+.vscode/
+.idea/

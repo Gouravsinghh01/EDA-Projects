@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files (e.g., VS Code)
+.vscode/
+
+# Dataset
+AB_NYC_2019.csv
+nyc_airbnb_map.html
+
+# Streamlit
+.streamlit/
