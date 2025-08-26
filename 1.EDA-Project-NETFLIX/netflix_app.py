@@ -8,7 +8,7 @@ import plotly.express as px
 st.title("Netflix Titles EDA Dashboard")
 
 # Load dataset
-df = pd.read_csv("netflix_titles.csv")
+df = pd.read_csv("1.EDA-Project-NETFLIX/netflix_titles.csv")
 df.fillna({'country': 'Unknown', 'director': 'Unknown', 'cast': 'Unknown'}, inplace=True)
 df['date_added'] = pd.to_datetime(df['date_added'], errors='coerce')
 df['year_added'] = df['date_added'].dt.year
